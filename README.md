@@ -29,5 +29,7 @@ Flask framework to deploy our visualization Dashboard.
 https://drive.google.com/drive/folders/1aeDGC_a-PGgZHNvYDajp--dcgTgJALQW?usp=sharing
 for our video 
 
-## ppt and document in document folder.
+## ppt and document:
+idea ppt
+IBM Hack Report 2020.pdf
 
