@@ -30,6 +30,6 @@ https://drive.google.com/drive/folders/1aeDGC_a-PGgZHNvYDajp--dcgTgJALQW?usp=sha
 for our video 
 
 ## ppt and document:
-idea ppt
+idea ppt,
 IBM Hack Report 2020.pdf
 
