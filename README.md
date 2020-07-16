@@ -2,13 +2,11 @@
 
 Sentiment analysis for covid-19 tweets.
 
-Covid-19 analysis notebooks:-
-1) covid-analaysis-nltk-vlader.ipynb:- Covid-19 tweets analysis by frst fetching covid-19 related tweets from twitter api by using python tweepy package and saving all the data in csv format.
-data like:
-username,location,tweets,user-id,hashtags etc.
-Data cleaning and final analysis is done by classifying sentence into positive, negative and neutral sentiments.
+## Data Analysis:-
+Covid-19 tweets analysis by frst fetching covid-19 related tweets from twitter api by using python tweepy package and saving all the data in csv format.
+Data parameters like: username,location,tweets,user-id,hashtags etc. Data cleaning and final analysis is done by classifying sentence into positive, negative and neutral sentiments.
 
-## Lets move one step further and classify these tweets according to emotions like sad,anger,analytical,fear, etc.
+### Lets move one step further and classify these tweets according to emotions like sad,anger,analytical,fear, etc.
 
 2)Covid-analysis-IBM-tone.ipynb:- In this we will classify according to above emotions for this we will use IBM tone analysis api 
 send the data by breaking csv into 2500 rows and get the tone anlalysis in return in the form of list and merge it with our csv .
