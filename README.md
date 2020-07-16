@@ -1,33 +1,30 @@
 # SBSPS-Challenge-1392-Sentiment-Analysis-of-COVID-19-Tweets---Visualization-Dashboard
 
-Sentiment analysis for covid-19 tweets.
+The corona-virus disease is major challenge to the healthcare systems around the world. Many AI companies around the world are working towards finding AI-based solutions. Opinion of people matters a lot to analyze how the propagation of information impacts the lives in a large-scale network like Twitter. One such solution is to understands the COVID-19 tweets by performing sentimental analysis and representing data in the statistical dashboard web application.
 
 ## Data Analysis:-
-Covid-19 tweets analysis by frst fetching covid-19 related tweets from twitter api by using python tweepy package and saving all the data in csv format.
+COVID-19 tweets analysis is done by frst fetching coronavirus related tweets from twitter api by using python tweepy package and saving all the data in csv format.
 Data parameters like: username,location,tweets,user-id,hashtags etc. Data cleaning and final analysis is done by classifying sentence into positive, negative and neutral sentiments.
 
-### Lets move one step further and classify these tweets according to emotions like sad,anger,analytical,fear, etc.
+### Lets move one step further and classify these tweets according to emotions like sad, anger, analytical, fear, etc.
 
-2)Covid-analysis-IBM-tone.ipynb:- In this we will classify according to above emotions for this we will use IBM tone analysis api 
-send the data by breaking csv into 2500 rows and get the tone anlalysis in return in the form of list and merge it with our csv .
-Since IBM tone analysis only provide free api calls upto 2500. We will use multiple free id for that
- 
-3)bert_model_sentimental_classification.ipynb:- Now we got classified sentiment thanks with the help of IBM tone analyzer now we can built model.
-For building our model we will go by bert-model pretrained ready made base model for text classification made by google which has high accuracy.It can also train at small dataset which is ideal for our situation since we face limited free calls from IBM tone analyzer so we have medium size dataset to train.
-we built our model using torch and export bin model for our model deployment.
+By using IBM tone analyser we had classified tweets according to given above emotions and used IBM tone analysis api. 
+- Send the data, by breaking input data into 2500 rows and get the tone analysis in return in the form of list and merge it with output data file .
 
-## Now comes our model deployement which we made by fast-api microframe-work 
-we will take tweet text as input and our model will predict our emotions.
-we made with the help of microframework fast api which deploys our model very fast and easy to use 
+## Sentiment Analysis Model:-
+For building our model we had used bert pretrained model for text classification which is made by google and having high accuracy. It can also train a small dataset which is ideal. for our situation since we face limited free calls from IBM tone analyzer so we have medium size dataset to train. We had built our model by using torch and export bin model for our model deployment.
 
-## Flask framework for our model data visualization
-Flask framework to deploy our visualization Dashboard.
+## Data Visualization:-
+In this dashboard the tweet data results will be displayed in form of statistical bar graphs. We will use matplotlib, seaborn and ploty for displaying proper results.
+
+## Application Deployment:-
+We had developed our dashboard by using HTML/CSS and javascript in frontend and flask framework in backend. With the help of microframework fast api we had deployed our sentiment analysis model and used heroku cloud for web application deployment. 
 
 ## Video Links .
 https://drive.google.com/drive/folders/1aeDGC_a-PGgZHNvYDajp--dcgTgJALQW?usp=sharing
 for our video 
 
-## ppt and document:
-idea ppt,
-IBM Hack Report 2020.pdf
+## Documentation
+PPT File:- idea.pptx
+Report:- IBM Hack Report 2020.pdf
 
