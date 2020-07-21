@@ -20,9 +20,9 @@ In this dashboard the tweet data results will be displayed in form of statistica
 ## Application Deployment:-
 We had developed our dashboard by using HTML/CSS and javascript in frontend and flask framework in backend. With the help of microframework fast api we had deployed our sentiment analysis model and used heroku cloud for web application deployment. 
 
-## Video Link:-
-https://drive.google.com/drive/folders/1aeDGC_a-PGgZHNvYDajp--dcgTgJALQW?usp=sharing
-for our video 
+## Video link and user interface output :-
+ Google Drive Link:- https://drive.google.com/drive/folders/1YRfeTsEPhGH2ERaXut-gH_12qFB4DG63
+
 
 ## Documentation
 PPT File:- idea.pptx 
