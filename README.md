@@ -1,6 +1,6 @@
 # SBSPS-Challenge-1392-Sentiment-Analysis-of-COVID-19-Tweets---Visualization-Dashboard
 
-The corona-virus disease is major challenge to the healthcare systems around the world. Many AI companies around the world are working towards finding AI-based solutions. Opinion of people matters a lot to analyze how the propagation of information impacts the lives in a large-scale network like Twitter. One such solution is to understands the COVID-19 tweets by performing sentimental analysis and representing data in the statistical dashboard web application.
+The corona-virus disease is major challenge to the healthcare systems around the world. Many AI companies around the world are working towards finding AI-based solutions. Opinion of people matters a lot to analyze how the propagation of information impacts the lives in a large-scale network like Twitter. One such solution is to understand the COVID-19 tweets by performing sentimental analysis and representing data in the statistical dashboard web application.
 
 ## Data Analysis:-
 COVID-19 tweets analysis is done by frst fetching coronavirus related tweets from twitter api by using python tweepy package and saving all the data in csv format.
