@@ -22,7 +22,7 @@ We had developed our dashboard by using HTML/CSS and javascript in frontend and 
 
 ## Video link and user interface output :-
  Google Drive Link:- https://drive.google.com/drive/folders/1YRfeTsEPhGH2ERaXut-gH_12qFB4DG63
-
+ Youtube Link:- https://youtu.be/mbbF3Orywjc
 
 ## Documentation
 PPT File:- idea.pptx 
