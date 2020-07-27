@@ -29,5 +29,5 @@ We had developed our dashboard by using HTML/CSS and javascript in frontend and 
 ## Documentation
 PPT File:- idea.pptx 
 Report:- IBM Hack Report 2020.pdf
-Team Name:- SLAY_CODERS
+
 
